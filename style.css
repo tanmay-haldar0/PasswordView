@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: skyblue;
+}
+
+.password {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 50px;
+  top: 50%;
+  left: 50%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.icon {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  margin-left: 130px;
+  width: 30px;
+  color: rgb(190, 190, 190);
+  cursor: pointer;
+}
+
+.watermark {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: transparent;
+  font-size: 12px;
+  opacity: 0.8;
+  z-index: 1000;
+}
